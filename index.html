@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandru M | Frontend Developer</title>
+    <meta name="description"
+        content="Portfolio of Chandru M, a Frontend Developer and B.Tech IT student specializing in React.js and modern web design.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">CHAN<span></span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#internship">Internship</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h3 class="greeting">Hello, I'm</h3>
+                <h1 class="name">Chandru M</h1>
+                <h2 class="role"><span class="typing-text"></span></h2>
+                <p class="hero-description">
+                    Building innovative, user-friendly web solutions with a passion for clean code and modern design.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="assets/Chandru-cv.pdf" download class="btn btn-secondary">Download CV</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Chandru815" target="_blank" aria-label="GitHub"
+                        class="social-icon github"><i class="fab fa-github"></i></a>
+                    <a href="https://chandru-m-66132b26" target="_blank" aria-label="LinkedIn"
+                        class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://leetcode.com/u/Chandru815/" target="_blank" aria-label="LeetCode"
+                        class="social-icon leetcode"><i class="fas fa-code"></i></a>
+                    <a href="https://hackerrank.com/u/Chandru815/" target="_blank" aria-label="HackerRank"
+                        class="social-icon hackerrank"><i class="fab fa-hackerrank"></i></a>
+                    <!-- <a href="mailto:mchandru8150@gmail.com" aria-label="Email" class="social-icon email"><i
+                            class="fas fa-envelope"></i></a> -->
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/profile.jpg" alt="Chandru M">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am currently pursuing my <strong>B.Tech in Information Technology (2022–2026)</strong> at
+                        <em>JJ College of Engineering and Technology</em>. My journey in technology is driven by a
+                        strong
+                        passion for creating intuitive and dynamic user experiences.
+                    </p>
+                    <p>
+                        I have gained hands-on experience in web application development through impactful internships
+                        and
+                        academic projects. I am proficient in <strong>Java, JavaScript, React.js, MongoDB, and
+                            Git</strong>.
+                        I am always eager to learn new technologies and contribute to building innovative solutions that
+                        solve real-world problems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-card">
+                    <i class="fab fa-java skill-icon" style="color: #007396;"></i>
+                    <h3>Java</h3>
+                </div>
+                <!-- Skill 2 -->
+                <div class="skill-card">
+                    <i class="fab fa-js skill-icon" style="color: #F7DF1E;"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <!-- Skill 3 -->
+                <div class="skill-card">
+                    <i class="fab fa-react skill-icon" style="color: #61DAFB;"></i>
+                    <h3>React.js</h3>
+                </div>
+                <!-- Skill 4 -->
+                <div class="skill-card">
+                    <i class="fab fa-git-alt skill-icon" style="color: #F05032;"></i>
+                    <h3>Git</h3>
+                </div>
+                <!-- Skill 5 (Added based on context) -->
+                <div class="skill-card">
+                    <i class="fab fa-html5 skill-icon" style="color: #E34F26;"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <!-- Skill 6 (Added based on context) -->
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt skill-icon" style="color: #1572B6;"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <!-- Skill 7 -->
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon" style="color: #47A248;"></i>
+                    <h3>MongoDB</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">AI in Disaster Management</h3>
+                        <p class="project-desc">
+                            A comprehensive web application designed to aid in disaster prediction and management using
+                            artificial intelligence.
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Disaster prediction using real-time data</li>
+                            <li><i class="fas fa-check"></i> Automated emergency response system</li>
+                            <li><i class="fas fa-check"></i> Social media & sensor data analysis</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>AI Models</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 (Added) -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">To-Do List App</h3>
+                        <p class="project-desc">
+                            A simple yet powerful task management application to help users organize their daily
+                            activities efficiently.
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Add, edit, and delete tasks</li>
+                            <li><i class="fas fa-check"></i> Task persistence using Local Storage</li>
+                            <li><i class="fas fa-check"></i> Light/Dark mode support</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>CSS3</span>
+                            <span>Local Storage</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internship" class="section internship">
+        <div class="container">
+            <h2 class="section-title">Internship Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Recently Completed</div>
+                    <div class="timeline-content">
+                        <h3>Frontend Development Intern</h3>
+                        <h4>Greensoft Group of Technology</h4>
+                        <p>
+                            Focused on designing responsive and user-friendly web interfaces. Gained practical
+                            experience in
+                            creating layouts that adapt seamlessly to various devices and screen sizes, enhancing web
+                            accessibility and user engagement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <h3>B.Tech Information Technology</h3>
+                    <p class="school">JJ College of Engineering and Technology</p>
+                    <p class="year">2022 – 2026</p>
+                    <span class="score">CGPA: 8.3</span>
+                </div>
+                <div class="edu-card">
+                    <h3>HSC</h3>
+                    <p class="school">Higher Secondary Education</p>
+                    <span class="score">Percentage: 76.6%</span>
+                </div>
+                <div class="edu-card">
+                    <h3>SSLC</h3>
+                    <p class="school">Secondary School Leaving Certificate</p>
+                    <span class="score">Percentage: 96%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-info">
+                        <h3>MERN Stack Development</h3>
+                        <p>NOVITECH</p>
+                        <p class="date">Jan 2025</p>
+
+                        <button class="cert-link" onclick="openModal('assets/NoviTech.png')">View Certificate <i
+                                class="fas fa-external-link-alt"></i></button>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-info">
+                        <h3>Full Stack Web Development</h3>
+                        <p>SKOLAR</p>
+                        <p class="date">Apr 2024</p>
+
+                        <button class="cert-link" onclick="openModal('assets/Skolar.png')">View Certificate <i
+                                class="fas fa-external-link-alt"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:mchandru8150@gmail.com">mchandru8150@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+916374469772">+91 6374469772</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                    <!-- Removed Social Links from Contact Section as requested -->
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p> Made with ❤️ By Chandru M. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Certificates -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
