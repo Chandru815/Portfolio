@@ -88,7 +88,7 @@ document.addEventListener('keydown', function (event) {
 
 // Typing Animation
 const typingText = document.querySelector('.typing-text');
-const words = ["Frontend Developer", "MERN Stack Developer"];
+const words = ["Frontend Developer", "MERN Stack Learner"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -123,3 +123,4 @@ function type() {
 if (typingText) {
     type();
 }
+
